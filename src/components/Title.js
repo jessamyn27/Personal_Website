@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-const B = styled.b`
+const Title = styled.h2`
   display: block;
   font-weight: normal;
   text-decoration: none;
   color: #F7F0EA;
-  font-size: 25px;
+  font-size: 32px;
   margin-right: 20%;
   margin-left: 20%;
 
@@ -14,6 +14,6 @@ const B = styled.b`
 
 `;
 
-B.displayName = 'B';
+Title.displayName = 'Title';
 
-export default B;
+export default Title;

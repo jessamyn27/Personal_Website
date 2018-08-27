@@ -14,8 +14,11 @@ const IconWrapper = styled.div`
 
   svg {
     color: #F7F0EA;
-    stroke: #6E6A79;
+    ${'' /* stroke: #6E6A79; */}
   }
+  ${'' /* &:hover {
+    transform: scale(1.05);
+  } */}
 `;
 
 IconWrapper.displayName = 'IconWrapper';

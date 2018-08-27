@@ -9,6 +9,8 @@ import Avatar from '../components/Avatar';
 import Center from '../components/Center';
 import A from '../components/A';
 import B from '../components/B';
+import Title from '../components/Title';
+
 import IconWrapper from '../components/IconWrapper';
 import PostContainer from '../components/PostContainer';
 
@@ -27,6 +29,11 @@ const App = () => (
         <h1>
           <A href="/">Jessamyn McTwigan</A>
         </h1>
+
+        <h2>
+          <Title>Full-Stack Developer</Title>
+        </h2>
+
         <IconWrapper>
         <a
           href="mailto:jessamyn.mctwigan@gmail.com"
@@ -51,32 +58,20 @@ const App = () => (
         </a>
       </IconWrapper>
 
-        <h2>
-          <B>Full-Stack Developer</B>
-        </h2>
-
       <p>
-        <B>Hi, I am a web developer and love to learn new things about front-end
+        <B>Hi! I'm a web developer and love to learn new things about front-end
         technology such as JS, React and functional reactive programming.</B>
       </p>
+      <br></br>
       <p>
         <B>
-        I think everyone in the world has the power to share knowledges, so I
-        enjoy sharing things on my blog.
+        I think everyone in the world has the power to share knowledges and continue to learn.
       </B>
       </p>
 <br></br>
 <br></br>
 <br></br>
 <br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-
 
 
       {/* <PostContainer /> */}
