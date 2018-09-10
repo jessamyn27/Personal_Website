@@ -48,7 +48,7 @@ import styled from 'styled-components';
 
 
 const Body = styled.div`
-  padding: 0 20px;
+  padding: 0 5px;
   margin: 0 auto;
   background-color: #A0B1BE;
 

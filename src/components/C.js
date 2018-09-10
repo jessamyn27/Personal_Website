@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-const B = styled.b`
+const C = styled.h3`
   display: block;
   font-weight:lighter;
   text-decoration: none;
   color: #F7F0EA;
-  font-size: 22px;
+  font-size: 16px;
   margin-right: 15%;
   margin-left: 15%;
 
@@ -14,6 +14,6 @@ const B = styled.b`
 
 `;
 
-B.displayName = 'B';
+C.displayName = 'C';
 
-export default B;
+export default C;
