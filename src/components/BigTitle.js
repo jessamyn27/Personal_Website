@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-const Title = styled.h2`
+const BigTitle = styled.h1`
   display: block;
   font-weight: normal;
   text-decoration: none;
-  color: #043B4A;
-  font-size: 27px;
+  color: #F7F0EA;
+  font-size: 50px;
   margin-right: 20%;
   margin-left: 20%;
   text-align: center;
@@ -13,6 +13,6 @@ const Title = styled.h2`
   font-size: regular;
 `;
 
-Title.displayName = 'Title';
+BigTitle.displayName = 'BigTitle';
 
-export default Title;
+export default BigTitle;

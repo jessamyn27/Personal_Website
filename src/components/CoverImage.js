@@ -13,7 +13,7 @@ import portrait1 from '../statics/images/portrait1.jpg';
  * matchMedia polyfill
  * set default value to true
  * ref: https://github.com/WickyNilliams/enquire.js/issues/82#issuecomment-26990494
- * @author Michael Hsu
+ 
  */
 window.matchMedia =
   window.matchMedia ||

@@ -4,10 +4,10 @@ const C = styled.h3`
   display: block;
   font-weight:lighter;
   text-decoration: none;
-  color: #F7F0EA;
-  font-size: 16px;
-  margin-right: 15%;
-  margin-left: 15%;
+  color: #043B4A;
+  font-size: 18px;
+  margin-right: 25%;
+  margin-left: 25%;
 
   font-weight: normal;
   font-size: regular;
@@ -17,3 +17,6 @@ const C = styled.h3`
 C.displayName = 'C';
 
 export default C;
+
+
+// color: #F7F0EA;

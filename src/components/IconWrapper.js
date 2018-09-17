@@ -13,7 +13,7 @@ const IconWrapper = styled.div`
   }
 
   svg {
-    color: #F7F0EA;
+    color: #043B4A;
     ${'' /* stroke: #6E6A79; */}
   }
   ${'' /* &:hover {

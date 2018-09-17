@@ -17,6 +17,7 @@ import Center from '../components/Center';
 import A from '../components/A';
 import B from '../components/B';
 import Title from '../components/Title';
+import BigTitle from '../components/BigTitle';
 
 import IconWrapper from '../components/IconWrapper';
 import PostContainer from '../components/PostContainer';
@@ -31,20 +32,10 @@ const App = () => (<div>
     <Center>
 
       <a href="/"><Avatar/></a>
-      <A href="/">Jessamyn McTwigan</A>
+      <BigTitle>Jessamyn McTwigan</BigTitle>
 
       <Title>Full-Stack Developer</Title>
       <Title>Austin, TX</Title>
-      <p>
-        <B>Hi! I am a creative, solutions-driven software developer with a passion for design, intuitive functionality, and accessibility. {/* My professional experience has made me able to quickly adapt for efficient solutions to multi-faceted problems. */}
-        </B>
-      </p>
-      <br></br>
-      <p>
-        <B>
-          I moved to Austin after working in the music industry for 7 years and realized I wanted to do something new and different. It doesn't take long in Austin to notice the prevalent tech startup world here. My curiosity led me to the realization that coding is the most important job skill of the future. Coding is also the balance of both my creativity and my problem solving abilities. In my research and reaching out to some of the best tech resources in Austin, I found that GA was the best fit for me. I enjoyed being immersed in learning every day. I also can't wait to take the skills I learned and the exposure I gained in this amazing community to further grow. It really is an exciting time to be a web developer! {/* I think everyone in the world has the power to share knowledges and continue to learn. */}
-        </B>
-      </p>
       <IconWrapper>
 
         <a href="mailto:jessamyn.mctwigan@gmail.com" target="jessamyn.mctwigan@gmail.com" rel="jessamyn.mctwigan@gmail.com">
@@ -56,28 +47,72 @@ const App = () => (<div>
         <a href="https://www.linkedin.com/in/jessamyn27" target="_blank" rel="noreferrer noopener">
           <Linkedin size={50}/>
         </a>
+        <Link to='/resume'><Paper size={50}/>
+          <Route path='/resume' component={Resume}/>
+        </Link>
 
-        {/* <Link to='/projects'><Lightbulb size={50}/>
-          <Route path='/projects' component={Projects}/>
-        </Link> */}
+      </IconWrapper>
+    </Center>
+<br></br>
+      <p>
+        <B>Hey There! I'm a creative, solutions-driven developer with a passion for design, intuitive functionality, and accessibility.
+          I get excited about problems that need solving and curious about new ways to solve them. It's a field where I can balance both my creative and problem solving skills.
+        </B>
+      </p>
+      <br></br>
 
+      <p>
+        <B>
+          I moved to Austin a few years ago, and it didn't take long in to get excited about the growing and diverse tech comminity here. In the global scope I also realize that coding may the most relevant job skill of the future. It's an exciting time to be a web developer.
+        <br></br>
+        <br></br>
 
+        Check out my projects below or click an icon to learn more about me.
+        <br></br>
+        <br></br>
+        Contact me and let's get coffee!
+          <br></br>
+          <br></br>
+          <br></br>
+        
+          </B>
+
+        <br></br>
+
+      </p>
+
+      <br></br>
+
+      <Projects/>
+      <br></br>
+      <br></br>
+
+      <IconWrapper>
+
+        <a href="mailto:jessamyn.mctwigan@gmail.com" target="jessamyn.mctwigan@gmail.com" rel="jessamyn.mctwigan@gmail.com">
+          <Envelope size={50}/>
+        </a>
+        <a href="https://github.com/jessamyn27" target="_blank" rel="noreferrer noopener">
+          <GitHub size={50}/>
+        </a>
+        <a href="https://www.linkedin.com/in/jessamyn27" target="_blank" rel="noreferrer noopener">
+          <Linkedin size={50}/>
+        </a>
         <Link to='/resume'><Paper size={50}/>
           <Route path='/resume' component={Resume}/>
         </Link>
 
       </IconWrapper>
       <br></br>
-      <A>My Projects</A>
       <br></br>
-      <Projects/>
-      <br></br>
+
+      <Center>
       <A href="/"><Up size={50}/></A>
+      </Center>
       <br></br>
       <br></br>
       <br></br>
 
-    </Center>
   </Body>
 </div>);
 
