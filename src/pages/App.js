@@ -72,17 +72,8 @@ const App = () => (<div>
         <br></br>
         Contact me and let's get coffee!
           <br></br>
-          <br></br>
-          <br></br>
-        
           </B>
-
-        <br></br>
-
       </p>
-
-      <br></br>
-
       <Projects/>
       <br></br>
       <br></br>

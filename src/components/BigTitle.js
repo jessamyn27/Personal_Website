@@ -4,7 +4,7 @@ const BigTitle = styled.h1`
   display: block;
   font-weight: normal;
   text-decoration: none;
-  color: #F7F0EA;
+  color: #DFD8C7;
   font-size: 50px;
   margin-right: 20%;
   margin-left: 20%;

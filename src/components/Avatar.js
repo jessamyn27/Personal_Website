@@ -10,7 +10,7 @@ const Avatar = styled.div`
   width: 300px;
   position: relative;
   top: -130px;
-  margin-bottom: -20px;
+  margin-bottom: -150px;
   border: none;
   border-radius: 100%;
   ${'' /* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.95); */}

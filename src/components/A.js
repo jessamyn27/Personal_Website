@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const A = styled.a`
   text-decoration: none;
-  color: #043B4A;
+  color: #DFD8C7;
   font-size: 27px;
   font-weight: normal;
   font-size: regular;

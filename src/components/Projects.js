@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
+
 import outdoor from '../statics/images/outdoor.png';
 import catvbaby from '../statics/images/catvbaby.png';
 import coding from '../statics/images/coding.png';
+import party3 from '../statics/images/party3.png';
+
+
 import Title from '../components/Title';
 import Center from '../components/Center';
 import GitHub from 'react-icons/lib/fa/github';
@@ -58,6 +62,21 @@ const ProjectPic3 = styled.div `
   border-radius: 5%;
   background-position: center;
 `
+const ProjectPic4 = styled.div `
+  background-image: url(${party3});
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 220px;
+  position: relative;
+  top: 30px;
+  margin-bottom: -20px;
+  border: none;
+  border-radius: 5%;
+  background-position: center;
+
+`
 
 class Projects extends Component {
   render() {
@@ -65,17 +84,14 @@ class Projects extends Component {
 
       <Center>
         <BigTitle>My Projects</BigTitle>
-
       <div>
+        <a href='https://flashcard-fun-app.firebaseapp.com' target="_blank" rel="noreferrer noopener"><ProjectPic3/></a>
         <br></br>
-          <A href='https://flashcard-fun-app.firebaseapp.com/'>Coding Study App</A>
-          <br></br>
-
-        <a href='https://flashcard-fun-app.firebaseapp.com/'><ProjectPic3/></a>
         <br></br>
         <br></br>
 
         <p>
+          <A href='https://flashcard-fun-app.firebaseapp.com' target="_blank" rel="noreferrer noopener">Coding Study App</A>
           <C>FIREBASE | REACT | NODE.JS
             <IconWrapper>
               <a href="https://github.com/jessamyn27/flashcard-fun-app" target="_blank" rel="noreferrer noopener">
@@ -89,23 +105,51 @@ class Projects extends Component {
       </div>
 
 
-      <div>
         <br></br>
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-          <A href='https://outdoor-austin.herokuapp.com/'>Outdoor Austin App</A>
+
+
           <br></br>
 
-        <a href ='https://outdoor-austin.herokuapp.com/'><ProjectPic1/></a>
+
+            <a href='https://github.com/jessamyn27/Party-Potensh-Playlist-App/blob/master/README.md' target="_blank" rel="noreferrer noopener"><ProjectPic4/></a>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <p>
+              <A href='https://github.com/jessamyn27/Party-Potensh-Playlist-App/blob/master/README.md' target="_blank" rel="noreferrer noopener">Party Potensh Playlist App</A>
+              <C>REACT | EXPRESS | NODE.JS | SPOTIFY API | GOOGLE API | MONGODB
+                <IconWrapper>
+                  <a href="https://github.com/jessamyn27/Party-Potensh-Playlist-App/blob/master/README.md" target="_blank" rel="noreferrer noopener">
+                    <GitHub size={50}/>
+                  </a>
+                </IconWrapper>
+                <br></br>
+                  This full stack app uses React with MongoDB as the backend for Auth as well as consuming the Spotify API, Google Map API, and Weather API for a full CRUD and RESTful App. The idea is that someone could not only create a party event but also let guests seach and add to the Spotify playlist in real time.  They can also see the map and weather for that location.
+              </C>
+            </p>
+
+
+
+          <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+
+        <a href ='https://outdoor-austin.herokuapp.com/' target="_blank" rel="noreferrer noopener"><ProjectPic1/></a>
         <br></br>
         <br></br>
         <br></br>
 
         <p>
-          <C>DJANGO | POSTGRESQL | REACT
+          <A href='https://outdoor-austin.herokuapp.com/' target="_blank" rel="noreferrer noopener">Outdoor Austin App</A>
+          <C>DJANGO | POSTGRESQL | REACT | PYTHON
             <IconWrapper>
               <a href="https://github.com/jessamyn27/outdoor-austin" target="_blank" rel="noreferrer noopener">
                 <GitHub size={50}/>
@@ -123,18 +167,17 @@ class Projects extends Component {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-          <A href='https://cat-v-baby.herokuapp.com/home'>Cat VS Baby</A>
-          <br></br>
+      
 
-        <a href='https://cat-v-baby.herokuapp.com/home'><ProjectPic2/></a>
+        <a href='https://cat-v-baby.herokuapp.com/home' target="_blank" rel="noreferrer noopener"><ProjectPic2/></a>
 
         <br></br>
         <br></br>
         <br></br>
 
         <p>
-          <C>EXPRESS | MONGODB | NODE.JS | MONGOOSE | EJS
+          <A href='https://cat-v-baby.herokuapp.com/home' target="_blank" rel="noreferrer noopener">Cat vs Baby App</A>
+          <C>EXPRESS | MONGODB | MONGOOSE
             <IconWrapper>
               <a href="https://github.com/jessamyn27/cat-v-baby" target="_blank" rel="noreferrer noopener">
                 <GitHub size={50}/>
