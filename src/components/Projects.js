@@ -99,7 +99,7 @@ class Projects extends Component {
               </a>
             </IconWrapper>
             <br></br>
-            Coding Study App is a study guide start for coding with an animated flashcard set, full CRUD to-do list and linked resource page. To continue this App I would definately use Firebase for OAuth login so people could create accounts, full CRUD for the Flashcard page so someone could create their own sets of data to choose from, add, edit and delete.
+            Coding Study App is a study guide start for coding with an animated flashcard set, full CRUD to-do list and linked resource page. To continue this App I would use Firebase for OAuth login so people could create accounts, full CRUD for the Flashcard page so someone could create their own sets of data to choose from, add, edit and delete.
           </C>
         </p>
       </div>
@@ -167,7 +167,7 @@ class Projects extends Component {
         <br></br>
         <br></br>
         <br></br>
-      
+
 
         <a href='https://cat-v-baby.herokuapp.com/home' target="_blank" rel="noreferrer noopener"><ProjectPic2/></a>
 
@@ -183,7 +183,7 @@ class Projects extends Component {
                 <GitHub size={50}/>
               </a>
             </IconWrapper>
-            It's a full Stack App with CRUD, and using MVC to create an adorable game. The guest can register, log in, add photos to the game and profile page or just play! A continuation of this App would include flexbox for styling structure and better photo managing.
+            It's a full Stack App with CRUD, and using MVC to create an adorable game. The guest can register, log in, add photos to the game and profile page or just play! A continuation of this App would include flexbox for styling structure photo managing.
           </C>
         </p>
 
