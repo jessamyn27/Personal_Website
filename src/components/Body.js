@@ -5,7 +5,7 @@ import styled from 'styled-components';
 // import Media from 'react-media';
 // import ProgressiveImage from 'react-progressive-bg-image';
 // import landscapeX60 from '../statics/images/landscapeX60.jpg';
-// import portraitX60 from '../statics/images/portraitX60.jpg';
+import gradient from '../statics/images/gradient.png';
 //
 //
 // window.matchMedia =
@@ -50,8 +50,15 @@ import styled from 'styled-components';
 const Body = styled.div`
   padding: 0 5px;
   margin: 0 auto;
-  background-color: #A0B1BE;
-
+  background-image: url(${gradient});
+  height: auto;
+  width: auto;
+  background-color: aliceblue;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-position: bottom;
+  ${'' /* overflow: hidden; */}
   @media (min-width: 600px) {
     width: auto;
   }

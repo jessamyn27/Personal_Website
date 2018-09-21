@@ -11,6 +11,8 @@ const BigTitle = styled.h1`
   text-align: center;
   font-weight: normal;
   font-size: regular;
+  font-family: 'Lato', sans-serif;
+
 `;
 
 BigTitle.displayName = 'BigTitle';

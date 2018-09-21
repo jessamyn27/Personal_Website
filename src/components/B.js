@@ -11,6 +11,7 @@ const B = styled.b`
   text-align: center;
   font-weight: normal;
   font-size: regular;
+  font-family: 'Lato', sans-serif;
 
 `;
 

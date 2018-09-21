@@ -99,7 +99,7 @@ class Projects extends Component {
               </a>
             </IconWrapper>
             <br></br>
-            Coding Study App is a study guide start for coding with an animated flashcard set, full CRUD to-do list and linked resource page. To continue this App I would use Firebase for OAuth login so people could create accounts, full CRUD for the Flashcard page so someone could create their own sets of data to choose from, add, edit and delete.
+            Coding Study App is a study guide start for coding with an animated flashcard set, full CRUD to-do list and linked resource page. To continue this App, I would use Firebase for OAuth login so people could create accounts. I would design full CRUD for the Flashcard page.
           </C>
         </p>
       </div>
@@ -120,7 +120,7 @@ class Projects extends Component {
             <br></br>
 
             <p>
-              <A href='https://github.com/jessamyn27/Party-Potensh-Playlist-App/blob/master/README.md' target="_blank" rel="noreferrer noopener">Party Potensh Playlist App</A>
+              <A href='https://github.com/jessamyn27/Party-Potensh-Playlist-App/blob/master/README.md' target="_blank" rel="noreferrer noopener">Party Playlist App</A>
               <C>REACT | EXPRESS | NODE.JS | SPOTIFY API | GOOGLE API | MONGODB
                 <IconWrapper>
                   <a href="https://github.com/jessamyn27/Party-Potensh-Playlist-App/blob/master/README.md" target="_blank" rel="noreferrer noopener">
@@ -128,7 +128,7 @@ class Projects extends Component {
                   </a>
                 </IconWrapper>
                 <br></br>
-                  This full stack app uses React with MongoDB as the backend for Auth as well as consuming the Spotify API, Google Map API, and Weather API for a full CRUD and RESTful App. The idea is that someone could not only create a party event but also let guests seach and add to the Spotify playlist in real time.  They can also see the map and weather for that location.
+                  This full stack app uses React with MongoDB as the back end for Auth. It also consumes the Spotify API, Google Map API, and Weather API for a full CRUD and RESTful app. The user can create a party event and also let guests search and add to the Spotify playlist. The user can also see the map and weather for that location.
               </C>
             </p>
 
@@ -157,7 +157,7 @@ class Projects extends Component {
             </IconWrapper>
             <br></br>
 
-            This is a full stack app with the start of a full CRUD Database of Outdoor Activities in Austin. If I were to continue working on this app, I would add in a mapping API like the open source Mapbox, a login and profile feature, perhaps using OAuth.
+            This is a full stack app with the start of a full CRUD Database. To continue working on this app, I would add in a mapping API like the open source Mapbox, a profile feature, and perhaps using OAuth.
           </C>
         </p>
 
@@ -183,7 +183,7 @@ class Projects extends Component {
                 <GitHub size={50}/>
               </a>
             </IconWrapper>
-            It's a full Stack App with CRUD, and using MVC to create an adorable game. The guest can register, log in, add photos to the game and profile page or just play! A continuation of this App would include flexbox for styling structure photo managing.
+            It's a full Stack App with CRUD, using MVC to create an adorable game. The guest can log in, create a profile page, add photos to the game or just play! A continuation of this app would be using flexbox for photo formatting.
           </C>
         </p>
 

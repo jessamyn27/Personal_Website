@@ -55,7 +55,7 @@ const App = () => (<div>
     </Center>
 <br></br>
       <p>
-        <B>Hey There! I'm a creative, solutions-driven developer with a passion for design, intuitive functionality, and accessibility.
+        <B>Hey there! I'm a creative, solutions-driven developer with a passion for design, intuitive functionality, and accessibility.
           I get excited about problems that need solving and curious about new ways to solve them. It's a field where I can balance both my creative and problem solving skills.
         </B>
       </p>
@@ -63,7 +63,7 @@ const App = () => (<div>
 
       <p>
         <B>
-          I moved to Austin a few years ago, and it didn't take long in to get excited about the growing and diverse tech comminity here. In the global scope I also realize that coding may the most relevant job skill of the future. It's an exciting time to be a web developer.
+          I moved to Austin a few years ago, and it didn't take long in to get excited about the growing and diverse tech community here. In the global scope I also realize that coding may be the most relevant job skill of the future. It's an exciting time to be a web developer.
         <br></br>
         <br></br>
 

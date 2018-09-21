@@ -12,6 +12,7 @@ const A = styled.a`
   text-align: center;
   margin: 0 auto;
   margin-top: -400px;
+  font-family: 'Lato', sans-serif;
 `;
 
 
