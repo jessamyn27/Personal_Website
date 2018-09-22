@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const A = styled.a`
+const A = styled.a `
   text-decoration: none;
-  color: #f7f3ea;
+  color: rgb(247,243,234);
   font-size: 27px;
   font-weight: normal;
   font-size: regular;
@@ -13,8 +13,15 @@ const A = styled.a`
   margin: 0 auto;
   margin-top: -400px;
   font-family: 'Lato', sans-serif;
-`;
+  transition: 2s ease-out;
+  transition: 2s ease-in;
 
+&:hover {
+  color: rgb(247,243,234, .1);
+  transition: 2s ease-out;
+  transition: 2s ease-in;
+}
+`;
 
 A.displayName = 'A';
 

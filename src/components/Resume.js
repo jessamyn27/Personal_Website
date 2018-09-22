@@ -6,8 +6,8 @@ const Resume = styled.div`
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 650px;
-  width: 500px;
+  height: 550px;
+  width: 400px;
   position: relative;
   top: 30px;
   margin-bottom: -20px;

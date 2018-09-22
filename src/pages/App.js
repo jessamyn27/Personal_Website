@@ -20,7 +20,6 @@ import Title from '../components/Title';
 import BigTitle from '../components/BigTitle';
 
 import IconWrapper from '../components/IconWrapper';
-import PostContainer from '../components/PostContainer';
 import Resume from '../components/Resume';
 import Projects from '../components/Projects';
 import ProjectPic from '../components/Projects';
@@ -34,7 +33,7 @@ const App = () => (<div>
       <a href="/"><Avatar/></a>
       <BigTitle>Jessamyn McTwigan</BigTitle>
 
-      <Title>Full-Stack Developer</Title>
+      <Title>Full-Stack Web Developer</Title>
       <Title>Austin, TX</Title>
       <IconWrapper>
 
@@ -54,26 +53,22 @@ const App = () => (<div>
       </IconWrapper>
     </Center>
 <br></br>
-      <p>
-        <B>Hey there! I'm a creative, solutions-driven developer with a passion for design, intuitive functionality, and accessibility.
-          I get excited about problems that need solving and curious about new ways to solve them. It's a field where I can balance both my creative and problem solving skills.
-        </B>
-      </p>
-      <br></br>
+      <div>
+        <B>I'm a creative, solutions-driven developer with a passion for design, functionality, and accessibility.
+          I enjoy solving problems and I'm curious about new ways to solve them.
 
-      <p>
-        <B>
-          I moved to Austin a few years ago, and it didn't take long in to get excited about the growing and diverse tech community here. In the global scope I also realize that coding may be the most relevant job skill of the future. It's an exciting time to be a web developer.
         <br></br>
         <br></br>
-
+          When I moved to Austin, it didn't take long in to see the growing and diverse tech community here. On the global scope, coding may be the most relevant job skill of the future, it's an exciting time to be a web developer.
+        <br></br>
+        <br></br>
         Check out my projects below or click an icon to learn more about me.
         <br></br>
         <br></br>
         Contact me and let's get coffee!
           <br></br>
           </B>
-      </p>
+      </div>
       <Projects/>
       <br></br>
       <br></br>

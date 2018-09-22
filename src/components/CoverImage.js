@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Media from 'react-media';
 import ProgressiveImage from 'react-progressive-bg-image';
 // import landscapeX60 from '../statics/images/landscapeX60.jpg';
-import gradient from '../statics/images/gradient.png';
+// import gradient1 from '../statics/images/gradient1.png';
 // import portraitX60 from '../statics/images/portraitX60.jpg';
 // import landscape1 from '../statics/images/landscape1.jpg';
 // import portrait1 from '../statics/images/portrait1.jpg';
@@ -14,38 +14,65 @@ import gradient from '../statics/images/gradient.png';
  * set default value to true
  * ref: https://github.com/WickyNilliams/enquire.js/issues/82#issuecomment-26990494
 
- */
-window.matchMedia =
-  window.matchMedia ||
-  function matchMedia() {
-    return {
-      matches: true, // Desktop First
-      addListener: () => {},
-      removeListener: () => {},
-    };
-  };
+//  */
+// window.matchMedia =
+//   window.matchMedia ||
+//   function matchMedia() {
+//     return {
+//       matches: true, // Desktop First
+//       addListener: () => {},
+//       removeListener: () => {},
+//     };
+//   };
+//
+// const StyledProgressiveImage = styled(ProgressiveImage)`
+//   height: 180px;
+//   width: auto;
+//   background-color: white;
+//   background-size: auto;
+//   background-attachment: fixed;
+//   background-position: 100%;
+//   background-position: top;
+//   overflow: hidden;
+// `;
+//
+// const CoverImage = () => (
+//   <Media query={{ minWidth: 100 }}>
+//     {matches => (
+//       <StyledProgressiveImage
+//         src={{ color: '' }}
+//       />
+//     )}
+//   </Media>
+//
+// );
 
-const StyledProgressiveImage = styled(ProgressiveImage)`
+const CoverImage = styled.div`
+  padding: 0 5px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  ${'' /* //   overflow: hidden; */}
   height: 180px;
-  width: auto;
-  background-color: aliceblue;
-  background-size: auto;
+  //   width: auto;
+
+  ${'' /* background-image: url(${gradient}); */}
+  ${'' /* height: auto;
+  width: auto; */}
+  ${'' /* background-color: aliceblue; */}
+  background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
-  background-position: bottom;
-  overflow: hidden;
+  ${'' /* overflow: hidden; */}
+  @media (min-width: 600px) {
+    width: auto;
+  }
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efece8+0,92c2dd+100 */
+  background: rgb(239,236,232); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(239,236,232) 0%, rgb(146,194,221) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(239,236,232) 0%,rgb(146,194,221) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(239,236,232) 0%,rgb(146,194,221) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efece8', endColorstr='#92c2dd',GradientType=0 ); /* IE6-9 */
 `;
-
-const CoverImage = () => (
-  <Media query={{ minWidth: 1000 }}>
-    {matches => (
-      <StyledProgressiveImage
-        src={gradient}
-      />
-    )}
-  </Media>
-
-);
 
 CoverImage.displayName = 'CoverImage';
 

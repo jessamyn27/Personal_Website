@@ -5,7 +5,7 @@ import styled from 'styled-components';
 // import Media from 'react-media';
 // import ProgressiveImage from 'react-progressive-bg-image';
 // import landscapeX60 from '../statics/images/landscapeX60.jpg';
-import gradient from '../statics/images/gradient.png';
+// import gradient from '../statics/images/gradient.png';
 //
 //
 // window.matchMedia =
@@ -50,21 +50,26 @@ import gradient from '../statics/images/gradient.png';
 const Body = styled.div`
   padding: 0 5px;
   margin: 0 auto;
-  background-image: url(${gradient});
-  height: auto;
-  width: auto;
-  background-color: aliceblue;
-  background-size: auto;
+  font-family: 'Lato', sans-serif;
+
+  ${'' /* background-image: url(${gradient}); */}
+  ${'' /* height: auto;
+  width: auto; */}
+  ${'' /* background-color: aliceblue; */}
+  background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
-  background-position: bottom;
   ${'' /* overflow: hidden; */}
   @media (min-width: 600px) {
     width: auto;
   }
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#92c2dd+0,e0d0bc+55,c4a1ad+75,205e7b+100 */
+  background: rgb(146,194,221); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(146,194,221) 0%, rgb(224,208,188) 55%, rgb(196,161,173) 75%, rgb(32,94,123) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(146,194,221) 0%,rgb(224,208,188) 55%,rgb(196,161,173) 75%,rgb(32,94,123) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(146,194,221) 0%,rgb(224,208,188) 55%,rgb(196,161,173) 75%,rgb(32,94,123) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92c2dd', endColorstr='#205e7b',GradientType=0 ); /* IE6-9 */
 `;
-
-
 
 Body.displayName = 'Body';
 

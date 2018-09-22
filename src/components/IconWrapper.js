@@ -14,13 +14,15 @@ const IconWrapper = styled.div`
 
   svg {
     color: #043B4A;
+    transition: .5s ease-out;
+    transition: .5s ease-in;
     ${'' /* stroke: #6E6A79; */}
   }
-  ${'' /* &:hover {
-    transform: scale(1.15);
+  &:hover {
+    transform: scale(1.05);
     color: rgba(197, 199, 231, 1);
-  transition: 2s ease-out;
-  transition: 2s ease-in; */}
+    transition: 2s ease-out;
+    transition: 1s ease-in;
   }
 `;
 

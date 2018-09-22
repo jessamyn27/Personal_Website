@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import jessa from '../statics/images/jessa.png';
 
-const Avatar = styled.div`
+const Avatar = styled.div `
   background-image: url(${jessa});
   background-size: cover;
   margin-left: auto;
@@ -13,7 +13,7 @@ const Avatar = styled.div`
   margin-bottom: -150px;
   border: none;
   border-radius: 100%;
-  ${'' /* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.95); */}
+  ${ ''/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.95); */}
 `;
 
 Avatar.displayName = 'Avatar';

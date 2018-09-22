@@ -12,7 +12,15 @@ const BigTitle = styled.h1`
   font-weight: normal;
   font-size: regular;
   font-family: 'Lato', sans-serif;
-
+  transition: 12s ease-out;
+  transition: .5s ease-in;
+}
+&:hover {
+  ${'' /* transform: scale(1.45); */}
+  color: rgba(197, 199, 231, 1);
+  transition: 12s ease-out;
+  transition: 2s ease-in;
+}
 `;
 
 BigTitle.displayName = 'BigTitle';
