@@ -24,8 +24,8 @@ import Resume from '../components/Resume';
 import Projects from '../components/Projects';
 import ProjectPic from '../components/Projects';
 
-const App = () => (<div>
-  {/* <Center> */}
+const App = () => (
+  <div>
   <CoverImage/>
   <Body>
     <Center>
@@ -43,7 +43,7 @@ const App = () => (<div>
         <a href="https://github.com/jessamyn27" target="_blank" rel="noreferrer noopener">
           <GitHub size={50}/>
         </a>
-        <a href="https://www.linkedin.com/in/jessamyn27" target="_blank" rel="noreferrer noopener">
+        <a href="https://www.linkedin.com/in/jessamynmctwigan" target="_blank" rel="noreferrer noopener">
           <Linkedin size={50}/>
         </a>
         <Link to='/resume'><Paper size={50}/>
@@ -59,14 +59,12 @@ const App = () => (<div>
 
         <br></br>
         <br></br>
-          When I moved to Austin, it didn't take long in to see the growing and diverse tech community here. On the global scope, coding may be the most relevant job skill of the future, it's an exciting time to be a web developer.
+          When I moved to Austin, it didn't take long in to observe the growing and diverse tech community here and I'm excited to be a part of it.
         <br></br>
         <br></br>
-        Check out my projects below or click an icon to learn more about me.
+        Check out my projects below and click to contact me and let's get coffee!
         <br></br>
         <br></br>
-        Contact me and let's get coffee!
-          <br></br>
           </B>
       </div>
       <Projects/>
@@ -81,7 +79,7 @@ const App = () => (<div>
         <a href="https://github.com/jessamyn27" target="_blank" rel="noreferrer noopener">
           <GitHub size={50}/>
         </a>
-        <a href="https://www.linkedin.com/in/jessamyn27" target="_blank" rel="noreferrer noopener">
+        <a href="https://www.linkedin.com/in/jessamynmctwigan" target="_blank" rel="noreferrer noopener">
           <Linkedin size={50}/>
         </a>
         <Link to='/resume'><Paper size={50}/>

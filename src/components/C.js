@@ -5,16 +5,17 @@ const C = styled.h3`
   font-weight:lighter;
   text-decoration: none;
   color: #043B4A;
-  font-size: 18px;
-  margin-right: 25%;
-  margin-left: 25%;
+  font-size: 15px;
+  ${'' /* padding-right: 25%; */}
+  ${'' /* padding-left: 25%; */}
   text-align: left;
-
+  max-width: 400px;
   font-weight: normal;
   font-size: regular;
   transition: 2s ease-out;
   transition: 2s ease-in;
-
+  margin-left: auto;
+  margin-right: auto;
 
   &:hover {
     color: rgb(247,243,234);

@@ -6,15 +6,16 @@ const B = styled.b `
   text-decoration: none;
   color: rgb(4,59,74);
   font-size: 18px;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin: auto;
   text-align: center;
   font-weight: normal;
-  font-size: regular;
+  ${'' /* font-size: regular; */}
   font-family: 'Lato', sans-serif;
   transition: 2s ease-out;
   transition: 2s ease-in;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
 
   &:hover {
     color: rgb(247,243,234);

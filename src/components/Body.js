@@ -44,18 +44,16 @@ import styled from 'styled-components';
 //
 // export default Body;
 
-
-
-
 const Body = styled.div`
-  padding: 0 5px;
-  margin: 0 auto;
+  ${'' /* padding: 0 5px; */}
+  ${'' /* margin: 0 auto; */}
   font-family: 'Lato', sans-serif;
-
-  ${'' /* background-image: url(${gradient}); */}
-  ${'' /* height: auto;
-  width: auto; */}
-  ${'' /* background-color: aliceblue; */}
+  margin-right: auto;
+  margin-left:  auto;
+  ${'' /* max-width: 960px; */}
+  padding-right: 25px;
+  padding-left:  25px;
+  height: auto;
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
