@@ -59,7 +59,7 @@ const App = () => (
 
         <br></br>
         <br></br>
-          When I moved to Austin, it didn't take long in to observe the growing and diverse tech community here and I'm excited to be a part of it.
+          When I moved to Austin, it didn't take long to observe the growing and diverse tech community here and I'm excited to be a part of it.
         <br></br>
         <br></br>
         Check out my projects below and click to contact me and let's get coffee!
