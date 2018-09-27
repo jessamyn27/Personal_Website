@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
-const A = styled.a `
+const a = styled.a `
+
   text-decoration: none;
-  color: rgb(247,243,234, 1);
-  font-size: 27px;
+  color: rgb(247,243,234);
+  font-size: 23px;
   font-weight: normal;
   font-size: regular;
   text-align: center;
@@ -13,17 +14,18 @@ const A = styled.a `
   margin: 0 auto;
   margin-top: -400px;
   font-family: 'Lato', sans-serif;
-  transition: 1s ease-out;
-  transition: 1s ease-in;
-  ${'' /* position: fixed; */}
+  transition: 2s ease-out;
+  transition: 2s ease-in;
+
+
 
 &:hover {
-  color: rgb(247,243,234, 1);
-  transition: 1s ease-out;
-  transition: 1s ease-in;
+  color: rgb(247,243,234, .1);
+  transition: 2s ease-out;
+  transition: 2s ease-in;
 }
 `;
 
-A.displayName = 'A';
+a.displayName = 'a';
 
-export default A;
+export default a;

@@ -4,21 +4,22 @@ const C = styled.h3`
   display: block;
   font-weight:lighter;
   text-decoration: none;
-  color: #043B4A;
-  font-size: 15px;
+  color: rgb(4,59,74, .7);
+  font-size: 20px;
   ${'' /* padding-right: 25%; */}
   ${'' /* padding-left: 25%; */}
   text-align: left;
-  max-width: 400px;
+  max-width: 500px;
   font-weight: normal;
   font-size: regular;
-  transition: 2s ease-out;
-  transition: 2s ease-in;
+  transition: 1s ease-out;
+  transition: 1s ease-in;
   margin-left: auto;
   margin-right: auto;
 
   &:hover {
-    color: rgb(247,243,234);
+    ${'' /* font-size: 20px; */}
+    color: rgb(4,59,74, 1);
     transition-duration: scroll-behavior:
     transition: 1s ease-out;
     transition: .5s ease-in;

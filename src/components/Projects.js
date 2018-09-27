@@ -21,14 +21,14 @@ const ProjectPic1 = styled.div `
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  max-width: 220px;
+  height: 530px;
+  max-width: 800px;
   position: relative;
   top: 30px;
   margin-bottom: -20px;
   border: none;
-  border-radius: 5%;
-  background-position: center;
+  border-radius: 3%;
+  background-position: top;
 
 `
 const ProjectPic2 = styled.div `
@@ -36,14 +36,14 @@ const ProjectPic2 = styled.div `
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  width: 220px;
+  height: 530px;
+  width: 800px;
   position: relative;
   top: 30px;
   margin-bottom: -20px;
   border: none;
-  border-radius: 5%;
-  background-position: center;
+  border-radius: 3%;
+  background-position: top;
 
   ${ ''/* <a href='https://outdoor-austin.herokuapp.com/'></a> */}
 `
@@ -52,28 +52,28 @@ const ProjectPic3 = styled.div `
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  width: 220px;
+  height: 530px;
+  width: 800px;
   position: relative;
   top: 30px;
   margin-bottom: -20px;
   border: none;
-  border-radius: 5%;
-  background-position: center;
+  border-radius: 3%;
+  background-position: top;
 `
 const ProjectPic4 = styled.div `
   background-image: url(${party3});
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  width: 220px;
+  height: 530px;
+  width: 800px;
   position: relative;
   top: 30px;
   margin-bottom: -20px;
   border: none;
-  border-radius: 5%;
-  background-position: center;
+  border-radius: 3%;
+  background-position: top;
 
 `
 
@@ -83,6 +83,7 @@ class Projects extends Component {
 
       <Center>
         <BigTitle>My Projects</BigTitle>
+
         <div>
           <a href='https://flashcard-fun-app.firebaseapp.com' target="_blank" rel="noreferrer noopener"><ProjectPic3/></a>
           <br></br>
@@ -97,9 +98,8 @@ class Projects extends Component {
                 <GitHub size={50}/>
               </a>
             </IconWrapper>
-            <br></br>
             <C>
-              Coding Study App is a study guide start for coding with an animated flashcard set, full CRUD to-do list and linked resource page. To continue this App, I would use Firebase for OAuth login so people could create accounts. I would design full CRUD for the Flashcard page.
+              I created this Coding Study App as a study guide starter for coding. It has 3 pages: an animated flashcard set, full CRUD to-do list and linked resource page. To continue this App, I would use Firebase for OAuth login so people could create accounts. I would design full CRUD for the Flashcard page.
             </C>
           </div>
         </div>
@@ -124,7 +124,6 @@ class Projects extends Component {
               <GitHub size={50}/>
             </a>
           </IconWrapper>
-          <br></br>
           <C>
             This full stack app uses React with MongoDB as the back end for Auth. It also consumes the Spotify API, Google Map API, and Weather API for a full CRUD and RESTful app. The user can create a party event and also let guests search and add to the Spotify playlist. The user can also see the map and weather for that location.
           </C>
@@ -150,7 +149,6 @@ class Projects extends Component {
                 <GitHub size={50}/>
               </a>
             </IconWrapper>
-            <br></br>
             <C>
               This is a full stack app with the start of a full CRUD Database. To continue working on this app, I would add in a mapping API like the open source Mapbox, a profile feature, and perhaps using OAuth.
             </C>

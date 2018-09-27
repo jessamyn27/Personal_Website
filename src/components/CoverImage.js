@@ -66,12 +66,16 @@ const CoverImage = styled.div`
   @media (min-width: 600px) {
     width: auto;
   }
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#92c2dd+0,efece8+100 */
+  background: rgb(146,194,221); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(146,194,221) 0%, rgb(239,236,232) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(146,194,221) 0%,rgb(239,236,232) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(146,194,221) 0%,rgb(239,236,232) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92c2dd', endColorstr='#efece8',GradientType=0 ); /* IE6-9 */
+
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efece8+0,92c2dd+100 */
-  background: rgb(239,236,232); /* Old browsers */
-  background: -moz-linear-gradient(top, rgb(239,236,232) 0%, rgb(146,194,221) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(239,236,232) 0%,rgb(146,194,221) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgb(239,236,232) 0%,rgb(146,194,221) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efece8', endColorstr='#92c2dd',GradientType=0 ); /* IE6-9 */
+
 `;
 
 CoverImage.displayName = 'CoverImage';

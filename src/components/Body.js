@@ -61,12 +61,16 @@ const Body = styled.div`
   @media (min-width: 600px) {
     width: auto;
   }
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#abd0e5+0,e7dacb+55,d1b7c0+75,3191bd+100 */
+  background: rgb(171,208,229); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(171,208,229) 0%, rgb(231,218,203) 55%, rgb(209,183,192) 75%, rgb(49,145,189) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(171,208,229) 0%,rgb(231,218,203) 55%,rgb(209,183,192) 75%,rgb(49,145,189) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(171,208,229) 0%,rgb(231,218,203) 55%,rgb(209,183,192) 75%,rgb(49,145,189) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abd0e5', endColorstr='#3191bd',GradientType=0 ); /* IE6-9 */
+
+${'' /* // darker version:  */}
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#92c2dd+0,e0d0bc+55,c4a1ad+75,205e7b+100 */
-  background: rgb(146,194,221); /* Old browsers */
-  background: -moz-linear-gradient(top, rgb(146,194,221) 0%, rgb(224,208,188) 55%, rgb(196,161,173) 75%, rgb(32,94,123) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(146,194,221) 0%,rgb(224,208,188) 55%,rgb(196,161,173) 75%,rgb(32,94,123) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgb(146,194,221) 0%,rgb(224,208,188) 55%,rgb(196,161,173) 75%,rgb(32,94,123) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92c2dd', endColorstr='#205e7b',GradientType=0 ); /* IE6-9 */
+
 `;
 
 Body.displayName = 'Body';
