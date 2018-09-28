@@ -7,8 +7,8 @@ const ResumePic = styled.div`
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 860px;
-  width: 700px;
+  height: 980px;
+  width: 800px;
   position: relative;
   top: 30px;
   margin-bottom: 30px;
@@ -20,7 +20,7 @@ const ResumePic = styled.div`
 
     }
     &:hover {
-      transform: scale(1.25);
+      ${'' /* transform: scale(1.25); */}
       color: rgba(197, 199, 231, 1);
       transition: 2s ease-out;
       transition: 1s ease-in;

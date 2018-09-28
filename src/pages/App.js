@@ -39,9 +39,8 @@ const App = () => (
 
       <a href="/"><Avatar/></a>
       <BigTitle>Jessamyn McTwigan</BigTitle>
+      <Title>FULL STACK DEVELOPER | AUSTIN TX</Title>
 
-      <Title>Full-Stack Web Developer</Title>
-      <Title>Austin, TX</Title>
       <IconWrapper>
 
         <a href="mailto:jessamyn.mctwigan@gmail.com" target="jessamyn.mctwigan@gmail.com" rel="jessamyn.mctwigan@gmail.com">
@@ -53,32 +52,33 @@ const App = () => (
         <a href="https://www.linkedin.com/in/jessamynmctwigan" target="_blank" rel="noreferrer noopener">
           <Linkedin size={50}/>
         </a>
-
-        <Link to='/resume'><File size={43}/>
+        <a href="https://drive.google.com/file/d/13f29M9mL26To4ZoQKFQkvYceCrO56PF6/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+          <File size={43}/>
+        </a>
+        {/* <Link to='/resume'><File size={43}/>
           <Route path='/resume' component={ResumePic}/>
-        </Link>
+        </Link> */}
 
       </IconWrapper>
 
     </Center>
 <br></br>
       <div>
-        <B>I'm a creative, solutions-driven developer with a passion for design, functionality, and accessibility.
+        <B>I'm a creative, solutions-driven developer with a passion for design, functionality, and accessibility. I strive for balance at the intersection of design, technology and business. I've learned to approach problems with empathy alongside efficiency.
           <br></br>
           <br></br>
 
           {/* Adventure / Art / Business / Music Venue / coding is all of that and awesome way of the future blah blah...
           I enjoy solving problems and I'm curious about new ways to solve them. */}
 
-        <br></br>
-        <br></br>
+
           When I moved to Austin, it didn't take long to notice the growing and diverse tech community here and I'm excited to be a part of it.
         <br></br>
         <br></br>
 I'm currently scouting my next project and can meet anywhere in the Austin City area. If you need some work done or just wanna chat,
-          high five the <IconWrapper><a href="mailto:jessamyn.mctwigan@gmail.com" target="jessamyn.mctwigan@gmail.com" rel="jessamyn.mctwigan@gmail.com">
+          <br></br> <br></br><IconWrapper><A href="mailto:jessamyn.mctwigan@gmail.com" target="jessamyn.mctwigan@gmail.com" rel="jessamyn.mctwigan@gmail.com">
             <Hand size={50}/>
-          </a></IconWrapper>to say hi and let's get coffee!
+          </A></IconWrapper> high five me and let's get coffee!
         <br></br>
 
         <br></br>

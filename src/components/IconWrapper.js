@@ -22,7 +22,7 @@ const IconWrapper = styled.div`
     ${'' /* stroke: #6E6A79; */}
   }
   &:hover {
-    transform: scale(1.15);
+    ${'' /* transform: scale(1.15); */}
     ${'' /* color: rgba(197, 199, 231, 1); */}
     transition: 1s ease-out;
     transition: 1s ease-in;

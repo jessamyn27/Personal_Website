@@ -13,7 +13,15 @@ const Avatar = styled.div `
   margin-bottom: -150px;
   border: none;
   border-radius: 100%;
-  ${ ''/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.95); */}
+  transition: .2s ease-out;
+  transition: .2s ease-in;
+  }
+  &:hover {
+  transform: scale(1.2);
+  color: rgb(4,59,74, 1);
+  transition: .2s ease-out;
+  transition: .2s ease-in;
+  }
 `;
 
 Avatar.displayName = 'Avatar';

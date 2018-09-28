@@ -18,7 +18,7 @@ const B = styled.b `
   max-width: 600px;
 
   &:hover {
-    transform: scale(1.1)
+    ${'' /* transform: scale(2.1) */}
 
     color: rgb(4,59,74, 1);
     transition-duration: scroll-behavior:
