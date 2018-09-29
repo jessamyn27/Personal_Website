@@ -52,7 +52,7 @@ const App = () => (
         <a href="https://www.linkedin.com/in/jessamynmctwigan" target="_blank" rel="noreferrer noopener">
           <Linkedin size={50}/>
         </a>
-        <a href="https://drive.google.com/file/d/13f29M9mL26To4ZoQKFQkvYceCrO56PF6/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+        <a href="https://drive.google.com/file/d/1zbOLxelvEr1tOrey0VTvERaJQ4kwAhAq/view?usp=sharing" target="_blank" rel="noreferrer noopener">
           <File size={43}/>
         </a>
         {/* <Link to='/resume'><File size={43}/>
